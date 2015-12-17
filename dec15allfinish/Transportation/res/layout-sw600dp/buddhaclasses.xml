@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/customborder"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/buddha"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnBuddhaClass1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="BuddhaClass1"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnBuddhaClass2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="BuddhaClass2"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnBuddhaClass3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="BuddhaClass3"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnBuddhaClass4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="BuddhaClass4"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnBuddhaClass5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="BuddhaClass5"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

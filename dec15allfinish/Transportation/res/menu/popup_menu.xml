@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_contactUs"
+        android:showAsAction="always"
+        android:title="@string/contactus"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_faq"
+        android:showAsAction="always"
+        android:title="@string/faq"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_checkupdate"
+        android:showAsAction="always"
+        android:title="@string/update"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_bookmarks"
+        android:showAsAction="always"
+        android:title="@string/bookmark"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_feedback"
+        android:showAsAction="always"
+        android:title="@string/feedback"
+        android:visible="true"/>
+
+</menu>

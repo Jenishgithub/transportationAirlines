@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/customborder"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/airlines"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="horizontal"
+                    android:weightSum="1" >
+
+                    <ImageButton
+                        android:id="@+id/btnYeti"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:background="#303030"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/yeti" />
+
+                    <ImageButton
+                        android:id="@+id/btnBuddha"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:background="#303030"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/buddha" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="horizontal"
+                    android:weightSum="1" >
+
+                    <ImageButton
+                        android:id="@+id/btnSita"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:background="#303030"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/sita" />
+
+                    <ImageButton
+                        android:id="@+id/btnTara"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:background="#303030"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/tara" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnAgni"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.33"
+                    android:background="#303030"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/agni" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

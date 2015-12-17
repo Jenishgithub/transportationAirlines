@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/searchdetail_actionbar" />
+
+    <RelativeLayout
+        android:id="@+id/llroutenamecost"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/top_bar"
+        android:background="#263238" >
+
+        <TextView
+            android:id="@+id/tvSourceNDestination_nointernet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:textSize="25sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvCost_nointernet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textColor="#fff"
+            android:textSize="25sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlscroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llroutenamecost" >
+
+        <ListView
+            android:id="@+id/lvfull_route"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

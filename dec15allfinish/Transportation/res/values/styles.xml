@@ -1,0 +1,89 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <!--
+    <style name="AppTheme" parent="AppBaseTheme">
+        All customizations that are NOT specific to a particular API-level can go here.
+    </style>
+    -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <!-- <item name="colorPrimaryDark">@color/primaryColorDark</item> -->
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- <item name="android:gravity">@string/center</item> -->
+
+    </style>
+
+    <!-- For Normal Text Size -->
+    <style name="normalTextSize" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- For Normal Text Size  With Bold -->
+    <style name="normalTextSizeWidthBold" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- For Medium Text Size -->
+    <style name="mediumTextSize" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- For Medium Text Size With Bold -->
+    <style name="mediumTextSizeWidthBold" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- For Large Text Size -->
+    <style name="largeTextSize" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- For Large Text Size With Bold -->
+    <style name="largeTextSizeWithBold" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- For Extra Large Text Size -->
+    <style name="extraLargeTextSize" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Animation.Popup" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_out</item>
+    </style>
+
+</resources>

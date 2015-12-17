@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linear_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/linear_button_background"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/btnApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/pressed"
+            android:padding="10dp"
+            android:text="@string/app"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnBookmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:text="@string/bookmark"
+            android:textColor="@color/grey" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/setting_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear_btn" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/aaloo_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear_btn"
+        android:visibility="gone" >
+    </FrameLayout>
+
+</RelativeLayout>

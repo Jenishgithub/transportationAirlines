@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/first"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/second"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/third"
+        android:layout_marginRight="6dip"
+         android:layout_marginEnd="6dip"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrow"
+        android:contentDescription="@string/app" />
+
+</RelativeLayout>

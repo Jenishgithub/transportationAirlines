@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        android:showAsAction="always"
+        android:title="@string/refresh"/>
+    <!-- <item
+        android:id="@+id/bookmark"
+        android:title="@string/bookmark"/>
+    <item
+        android:id="@+id/faq"
+        android:title="@string/faq"/>
+    <item
+        android:id="@+id/contactus"
+        android:title="@string/contactus"/>
+    <item
+        android:id="@+id/update"
+        android:title="@string/update"/> -->
+    
+
+</menu>

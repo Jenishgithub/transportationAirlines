@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+   
+    <item 
+        android:id="@+id/bookmark"
+        android:title="@string/bookmark"
+        android:showAsAction="always"/>
+     <item
+        android:id="@+id/bycost"
+        android:showAsAction="ifRoom"
+        android:title="@string/orderbycost"/>
+      <item
+        android:id="@+id/bytime"
+        android:showAsAction="ifRoom"
+        android:title="@string/orderbytime"
+        android:icon="@drawable/bus"/>
+
+</menu>

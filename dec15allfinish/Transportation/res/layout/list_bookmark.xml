@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:paddingEnd="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp"
+        android:paddingStart="5dp" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app"
+            android:paddingEnd="5dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="5dp"
+            android:paddingStart="0dp"
+            android:src="@drawable/bookmark_black" />
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="260dp"
+            android:layout_height="20dip"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toRightOf="@+id/icon"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/go"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/app"
+            android:scaleType="centerInside"
+            android:src="@drawable/angle" />
+    </RelativeLayout>
+
+</LinearLayout>

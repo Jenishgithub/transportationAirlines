@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+
+   		<AutoCompleteTextView 
+                android:id="@+id/autocomplete"
+        		android:layout_width="250dp"
+       			android:layout_height="40dp"
+        		android:background="@drawable/autocomplete_normal"
+        		android:ems="10"
+        		android:hint="@string/through"
+        		android:drawableStart="@drawable/location"
+        		android:drawableLeft="@drawable/location"
+        		android:layout_marginLeft="25dp"
+        		android:layout_marginStart="25dp"
+        		android:layout_marginRight ="5dp"
+        		android:layout_marginEnd="5dp"
+        		android:layout_marginBottom="10dp"/>
+   
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/llyourName"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:layout_weight="0.025"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yourname"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etyourName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/autocomplete_normal"
+            android:inputType="text"
+            android:maxLength="60"
+            android:padding="8dp"
+            android:textSize="20sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyouremail"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:layout_weight="0.025"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/youremail"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etyourEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/autocomplete_normal"
+            android:inputType="textEmailAddress"
+            android:maxLength="75"
+            android:padding="8dp"
+            android:textSize="20sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyourfeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.925"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/yourfeedback"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etyourFeedback"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/autocomplete_normal"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:padding="8dp"
+            android:textSize="20sp" >
+        </EditText>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.025"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+        <Button
+            android:id="@+id/btnSendfeedback"
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/btnnomatch"
+            android:text="@string/sendfeedback"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCancelFeedback"
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btnnomatch"
+            android:text="@string/cancel"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

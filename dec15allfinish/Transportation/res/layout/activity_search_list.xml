@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/primaryColor"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/backbutton" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/searchList"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/orderByPriceBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/orderByTimeBtn"
+            android:layout_toStartOf="@id/orderByTimeBtn"
+            android:background="@color/primaryColor"
+            android:text="@string/Price"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/orderByTimeBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/primaryColor"
+            android:text="@string/Time"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp" />
+
+    <TextView
+        android:id="@+id/tvnomatchfound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/nomatchfound"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

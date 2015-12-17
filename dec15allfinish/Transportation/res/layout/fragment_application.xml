@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!--
+          <include
+         android:id="@+id/app_bar"
+        
+         layout="@layout/appbar" />
+    -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layoutcontactus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/tvContactUs"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.48"
+                    android:text="@string/contactus"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/angle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutfaq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/question" />
+
+                <TextView
+                    android:id="@+id/tvfaq"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.48"
+                    android:text="@string/faq"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/angle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutcheckforupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/cloud" />
+
+                <TextView
+                    android:id="@+id/tvcheckforupdate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.48"
+                    android:text="@string/update"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/angle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutpolicy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bull" />
+
+                <TextView
+                    android:id="@+id/tvpolicy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.48"
+                    android:text="@string/policy"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/angle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutlegaldocument"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/copy" />
+
+                <TextView
+                    android:id="@+id/tvlegaldocument"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.48"
+                    android:text="@string/legalDocument"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/angle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

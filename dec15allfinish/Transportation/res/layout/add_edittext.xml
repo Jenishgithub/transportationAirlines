@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/llAddEditText" >
+    <AutoCompleteTextView
+        android:id="@+id/through2TextView3"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/autocomplete_normal"
+        android:ems="10"
+        android:hint="@string/through" 
+        android:drawableLeft="@drawable/loc"
+        android:visibility="gone"
+        android:layout_marginStart="25dp"
+        android:drawableStart="@drawable/loc" 
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="25dp"
+        />
+    
+    
+
+    <AutoCompleteTextView
+        android:id="@+id/through3TextView4"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="25dp"
+        android:hint="@string/through" 
+        android:background="@drawable/autocomplete_normal"
+        android:drawableLeft="@drawable/loc"
+        android:visibility="gone"
+        android:layout_marginStart="25dp"
+        android:drawableStart="@drawable/loc" 
+        android:padding="5dp"
+        
+        />
+    
+    
+
+</LinearLayout>

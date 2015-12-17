@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/customborder"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/tara"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnTaraClass1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="TaraClass1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnTaraClass2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="TaraClass2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnTaraClass3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="TaraClass3"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnTaraClass4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="TaraClass4"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnTaraClass5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="TaraClass5"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
